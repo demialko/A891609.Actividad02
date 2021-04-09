@@ -1,0 +1,7 @@
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\bin\Debug\A891609.Actividad02.exe.config
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\bin\Debug\A891609.Actividad02.exe
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\bin\Debug\A891609.Actividad02.pdb
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\obj\Debug\A891609.Actividad02.csprojAssemblyReference.cache
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\obj\Debug\A891609.Actividad02.csproj.CoreCompileInputs.cache
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\obj\Debug\A891609.Actividad02.exe
+C:\Users\demia\source\repos\CAI\A891609.Actividad02\A891609.Actividad02\A891609.Actividad02\obj\Debug\A891609.Actividad02.pdb
