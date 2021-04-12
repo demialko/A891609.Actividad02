@@ -10,23 +10,14 @@ namespace A891609.Actividad02
     {
         static void Main(string[] args)
         {
-            int cantidadMaximaDeEquipos = 5;
-            int cantidadEquipos = Validador.pedirInt("Ingrese la cantidad de equipos que jugarán el torneo (la misma no puede ser mayor a " + cantidadMaximaDeEquipos + ")", cantidadMaximaDeEquipos);
-            string nombreTorneo = Validador.pedirStrNoVacio("Ingrese el nombre del torneo");
-            Torneo torneo = new Torneo(nombreTorneo, cantidadEquipos);
-
-            for (int i = 0; i <= torneo.CantidadDeEquipos-1; i++)
-            {
-                string nombre = Validador.pedirStrNoVacio("Ingrese el nombre del equipo número " + (i + 1));
-                Equipo eq = new Equipo(nombre);
-                torneo.cargaDeEquipos(eq);
-            }
- 
-            /*
-            //Hasta aca
+            int cantidadEquipos = 0;
+            bool ingresoCorrecto = false;
             List<String> listaDeEquipos = new List<string> { };
-            
-            
+            do
+            {
+                Console.WriteLine("Ingrese la cantidad de equipos que jugarán el torneo (la misma no puede ser mayor a 10)");
+                ingresoCorrecto = int.TryParse(Console.ReadLine(), out cantidadEquipos);
+            } while (!ingresoCorrecto);
 
             for (int i = 0; i < cantidadEquipos; i++)
             {
@@ -44,7 +35,7 @@ namespace A891609.Actividad02
             {
                 Console.WriteLine(equipo);
             }
-            Console.ReadKey();*/
+            Console.ReadKey();
         }
     }
 }
